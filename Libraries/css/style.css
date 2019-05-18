@@ -300,6 +300,7 @@ h6 {
   width: 100%;
 }
 
+/******/
 .nav-menu li.buy-tickets a {
   color: #fff;
   background: #39ac73;
@@ -318,6 +319,8 @@ h6 {
   background: none;
 }
 
+
+/*This does the line under it*/
 .nav-menu li.buy-tickets:hover a:before,
 .nav-menu li.buy-tickets.menu-active a:before {
   visibility: hidden;
@@ -354,7 +357,7 @@ h6 {
   margin: 0;
 }
 
-/* Mobile Nav Toggle */
+/* Mobile Nav Toggle 
 
 #mobile-nav-toggle {
   position: fixed;
@@ -1082,7 +1085,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #hotels .hotel:hover .hotel-img img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-
 }
 
 
@@ -1174,6 +1176,39 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
+#gift button {
+  border: 0;
+  padding: 9px 25px;
+  cursor: pointer;
+  background: #39ac73;
+  color: #fff;
+  transition: all 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  border-radius: 50px;
+}
+
+
+.gift_button a {
+  color: #fff;
+  /*font-family: "Raleway", sans-serif;*/
+  background: #39ac73;
+  padding: 7px 22px;
+  border-radius: 50px;
+  border: 2px solid #39ac73;
+  transition: all ease-in-out 0.3s;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-top: 2px;
+  line-height: 1;
+  font-size: 15px;
+}
+
+.gift_button a:hover {
+  background: none;
+  -webkit-transform: scale(1.1);
+  transform: font(1.1);
+}
 
 /*--------------------------------------------------------------
 # Gallery Section
@@ -1366,6 +1401,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #subscribe button:hover {
   background: #e0072f;
 }
+
 
 /*--------------------------------------------------------------
 # Buy Tickets Section
