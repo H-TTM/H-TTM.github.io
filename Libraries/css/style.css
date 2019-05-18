@@ -300,7 +300,6 @@ h6 {
   width: 100%;
 }
 
-/******/
 .nav-menu li.buy-tickets a {
   color: #fff;
   background: #39ac73;
@@ -319,8 +318,6 @@ h6 {
   background: none;
 }
 
-
-/*This does the line under it*/
 .nav-menu li.buy-tickets:hover a:before,
 .nav-menu li.buy-tickets.menu-active a:before {
   visibility: hidden;
@@ -357,7 +354,7 @@ h6 {
   margin: 0;
 }
 
-/* Mobile Nav Toggle 
+/* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
   position: fixed;
@@ -472,7 +469,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background:url(../img/oxwich.jpg) top center;
+  background: url(https://beachhouseoxwich.co.uk/wp-content/uploads/2016/06/oxwich-2.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -999,22 +996,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-info {
-  background: url("../img/Woodlanddrive.jpg") top center no-repeat;
+  background: url("../img/venue-info-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
-  overflow: hidden;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-/*
-#intro {
-
-  background:url(../img/oxwich.jpg) top center;
-  background-size: cover;
-
-  position: relative;
-}*/
 
 #venue .venue-info:before {
   content: "";
@@ -1085,6 +1072,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #hotels .hotel:hover .hotel-img img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+
 }
 
 
@@ -1187,7 +1175,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   border-radius: 50px;
 }
-
 
 .gift_button a {
   color: #fff;
@@ -1401,7 +1388,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #subscribe button:hover {
   background: #e0072f;
 }
-
 
 /*--------------------------------------------------------------
 # Buy Tickets Section
@@ -1774,12 +1760,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
   #about {
-      /*THIS MAKES IT SCROLL!*/
-    background-attachment: fixed;
-  }
-
-
-  #venue .venue-info {
       /*THIS MAKES IT SCROLL!*/
     background-attachment: fixed;
   }
